@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "COSMOS: Constrained Sparse Model Selection"
+type: software
+repository-code: "https://github.com/Angus91426/COnstrained-Sparse-MOdel-Selection"
+authors:
+  - family-names: Liao
+    given-names: Ting-Yu
+    affiliation: "Chung Yuan Christian University"
+  - family-names: Chen
+    given-names: Chia-Cheng
+    affiliation: "Yuan Ze University"
+  - family-names: Hsu
+    given-names: Chih-Hua
+    affiliation: "Chung Yuan Christian University"
+    email: chhsu135@cycu.edu.tw
+preferred-citation:
+  type: article
+  title: "Constrained Sparse Model Selection: Unifying Exact Sparsity and Physics-Informed Constraints for Interpretable High-Dimensional Regression"
+  authors:
+    - family-names: Liao
+      given-names: Ting-Yu
+    - family-names: Chen
+      given-names: Chia-Cheng
+    - family-names: Hsu
+      given-names: Chih-Hua
+  journal: "European Journal of Operational Research"
+  status: submitted

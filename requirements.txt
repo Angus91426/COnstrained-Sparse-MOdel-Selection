@@ -1,0 +1,18 @@
+# Versions of the environment used for the experiments in the paper (Python 3.11.16, R 4.6.1, L0Learn 2.1.0).
+# Install with:  pip install -r requirements.txt
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.9.1
+optuna==5.0.0
+gurobipy==13.0.3     # Holistic Regression (HR); needs a Gurobi licence (free academic licences available)
+rpy2==3.6.7          # bridge to the R package L0Learn; needs R installed
+cvxpy==1.9.3         # verify_inner_solver.py only
+clarabel==0.11.1     # verify_inner_solver.py only
+pyarrow==25.0.1      # per-trial logs (parquet)
+openpyxl==3.1.5      # result tables (xlsx)
+matplotlib==3.11.2
+seaborn==0.13.2
+rich==15.0.0
+tqdm==4.70.1
+# R package (install inside R):  install.packages("L0Learn")

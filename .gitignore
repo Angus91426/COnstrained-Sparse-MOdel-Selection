@@ -1,0 +1,28 @@
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large per-trial logs and figures written by the experiment scripts
+Log/
+Figure/
+
+# Intermediate data written by Python/create_data.py
+Data/Irrelevant/
+Data/Random/
+Data/Random Nonlinear/
+
+# Real-world data: download and convert locally (see README)
+Data/NIR Corn/*.mat
+Data/NIR Corn/corn_*.csv
+Data/Riboflavin/riboflavin_x.csv
+Data/Riboflavin/riboflavin_y.csv
+
+# Tables rebuilt by the post-processing scripts
+Results/Tables_regenerated/
